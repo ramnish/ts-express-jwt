@@ -1,0 +1,10 @@
+GET http://localhost:8080/posts
+Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmFtbmlzaCIsImlhdCI6MTY4ODc1MzAxM30.LTGr2MtG0pn_ObJY04A2iT3oDtc81_SzY7sQko7Rod8
+
+###
+POST http://localhost:8081/login  HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Ramnish"
+}
